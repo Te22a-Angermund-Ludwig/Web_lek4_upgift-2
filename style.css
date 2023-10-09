@@ -4,11 +4,19 @@ grid-template-columns: 1fr 4fr;
 grid-template-rows: 1fr 1fr auto 1fr;
 }
 
-.logo{
-max-width: 50px;
-max-height: auto;
-align-items: center;
+.bild{
+    border: 2px solid black;
+    border-radius: 7px;
+}
 
+.logo{
+max-width: 95px;
+max-height: auto;
+border: 2px solid black;
+border-radius: 7px;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 header{
@@ -21,7 +29,10 @@ margin: 5px;
 }
 aside{
 background-image: url(./bilder/dragon_side.png);
-grid-row: 2/4;
+grid-row: 2/5;
+
+border: 2px solid black;
+border-radius: 7px;
 }
 
 main{
@@ -33,4 +44,27 @@ main{
     border-radius: 7px;
     margin: 5px;
     padding-left: 70px;
+}
+
+nav{
+text-align: center;
+justify-content: space-between;
+background-color: black;
+border: 2px solid black;
+border-radius: 7px;
+margin-top: 2px;
+padding-top: 10px;
+}
+
+a{
+    color: white;
+}
+
+footer{
+    text-align: center;
+    justify-content: space-between;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding-top: 10px;
 }
